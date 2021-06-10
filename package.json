@@ -1,0 +1,12 @@
+{
+    "name": "TemplateSkeleton",
+    "version": "1.0.1",
+    "description": "Template skeleton.",
+    "dependencies": {
+        "system": {
+            "type": "SAE",
+            "version": "4.20.11"
+        }
+    },
+    "type": "template"
+}
