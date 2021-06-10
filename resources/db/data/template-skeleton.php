@@ -13,6 +13,7 @@ $icons = [
     'skeleton5' => 'app/local/modules/TemplateSkeleton/resources/media/library/skeleton5.png',
     'skeleton6' => 'app/local/modules/TemplateSkeleton/resources/media/library/skeleton6.png',
     'skeleton7' => 'app/local/modules/TemplateSkeleton/resources/media/library/skeleton7.png',
+    'skeleton8' => 'app/local/modules/TemplateSkeleton/resources/media/library/skeleton8.png',
 ];
 
 // We insert icons one by one, so we can get the icon_id for each, and use it in our features!
@@ -143,6 +144,11 @@ $features = [
         'name' => 'Folder #2',
         'icon_id' => $libraryKeys['skeleton7']['icon_id']
     ],
+    [
+        'code' => 'tabbar_account',
+        'name' => 'My account',
+        'icon_id' => $libraryKeys['skeleton8']['icon_id']
+    ]
 ];
 
 Template::installOrUpdate(
